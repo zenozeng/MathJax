@@ -11,6 +11,12 @@ Include this in your markdown:
 <script src="//zenozeng.github.io/MathJax/init.js"></script>
 ```
 
+Or if you are using pandoc:
+
+```bash
+pandoc index.md -s --mathjax='//zenozeng.github.io/MathJax/init.js' -o index.html
+```
+
 ## Example
 
 - https://zenozeng.github.io/MathJax/examples/
