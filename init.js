@@ -21,7 +21,13 @@
             MathJax.Hub.Config({
                 extensions: ["tex2jax.js"],
                 jax: ["input/TeX", "output/HTML-CSS"],
-                "HTML-CSS": {availableFonts: ["TeX"]},
+                "HTML-CSS": {
+                    availableFonts: [],
+                    preferredFonts: "TeX",
+                    webFont:"",
+                    imageFont:"",
+                    undefinedFamily:"'Arial Unicode MS',serif"
+                },
                 tex2jax: {
                     inlineMath: [
                         ["$", "$"],
