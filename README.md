@@ -15,4 +15,4 @@ Include this in your markdown:
 
 - https://zenozeng.github.io/MathJax/examples/
 
-- https://github.com/zenozeng/MathJax/blob/master/examples/index.md
+- https://github.com/zenozeng/MathJax/blob/gh-pages/examples/index.md
