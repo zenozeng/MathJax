@@ -21,9 +21,7 @@
             MathJax.Hub.Config({
                 extensions: ["tex2jax.js"],
                 jax: ["input/TeX", "output/HTML-CSS"],
-                // "HTML-CSS": {
-                //     styles: {".MathJax_Preview": {visibility: "hidden"}}
-                // },
+                "HTML-CSS": {availableFonts: ["TeX"]},
                 tex2jax: {
                     inlineMath: [
                         ["$", "$"],
