@@ -11,10 +11,6 @@ Include this in your markdown:
 <script src="//zenozeng.github.io/MathJax/init.js"></script>
 ```
 
-## Status
-
-Working on it.
-
 ## Example
 
 - https://zenozeng.github.io/MathJax/examples/
