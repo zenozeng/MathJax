@@ -28,7 +28,7 @@
                                  "color.js"]
                 },
                 "HTML-CSS": {
-                    preferredFont: "STIX"
+                    webFont: "STIX-Web"
                 }
             });
         };
