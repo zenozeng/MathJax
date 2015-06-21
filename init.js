@@ -12,8 +12,6 @@
     var baseURL = "//zenozeng.github.io/MathJax/";
 
     ready(function() {
-        console.log('ready', document.readyState);
-
         var s;
         s = document.createElement("script");
         s.type = "text/javascript";
@@ -26,4 +24,4 @@
         document.head.appendChild(s);
     });
 
-});
+})();
