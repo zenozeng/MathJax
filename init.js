@@ -19,23 +19,13 @@
         s.src = baseURL + "core/MathJax.js";
         s.onload = function() {
             MathJax.Hub.Config({
-                extensions: ["tex2jax.js"],
-                jax: ["input/TeX", "output/HTML-CSS"],
-                "HTML-CSS": {
-                    availableFonts: [],
-                    preferredFonts: "TeX",
-                    webFont:"",
-                    imageFont:"",
-                    undefinedFamily:"'Arial Unicode MS',serif"
-                },
-                tex2jax: {
-                    inlineMath: [
-                        ["$", "$"],
-                        ["\\(", "\\)"]
-                    ]
-                },
+                config: ["MMLorHTML.js"],
+                jax: ["input/TeX","input/MathML","input/AsciiMath","output/HTML-CSS","output/NativeMML", "output/CommonHTML"],
+                extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
                 TeX: {
-                    extensions: ["AMSmath.js", "AMSsymbols.js", "//zenozeng.github.io/MathJax/extra/xyjax.js", "color.js"]
+                    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js",
+                                 "//zenozeng.github.io/MathJax/extra/xyjax.js",
+                                 "color.js"]
                 }
             });
         };
