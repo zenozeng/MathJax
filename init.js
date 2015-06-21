@@ -26,6 +26,9 @@
                     extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js",
                                  "//zenozeng.github.io/MathJax/extra/xyjax.js",
                                  "color.js"]
+                },
+                "HTML-CSS": {
+                    preferredFont: "STIX"
                 }
             });
         };
