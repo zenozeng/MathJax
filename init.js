@@ -28,9 +28,9 @@
                                  "color.js"]
                 },
                 "HTML-CSS": {
-                    availableFonts: ["TeX"],
-                    preferredFont: "Tex",
-                    webFont: "Tex"
+                    availableFonts: [],
+                    preferredFont: "",
+                    webFont: "STIX-Web" // use STIX-Web only
                 }
             });
         };
