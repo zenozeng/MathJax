@@ -13,14 +13,15 @@
 
     ready(function() {
         var s;
-        s = document.createElement("script");
-        s.type = "text/javascript";
-        s.src = baseURL + "core/MathJax.js";
-        document.head.appendChild(s);
 
         s = document.createElement("script");
         s.type = "text/x-mathjax-config";
         s.src = baseURL + "config.js";
+        document.head.appendChild(s);
+
+        s = document.createElement("script");
+        s.type = "text/javascript";
+        s.src = baseURL + "core/MathJax.js";
         document.head.appendChild(s);
     });
 
