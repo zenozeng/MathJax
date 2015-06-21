@@ -1,12 +1,19 @@
 # MathJax
 
-Self hosted MathJax (configured with color and XyJax)
+MathJax's CDN is a little bit slow in China.
+This repo is a self hosted MathJax plus configuration for color and XyJax.
+
+## Usage
 
 Include this in your markdown:
 
 ```html
 <script src="//zenozeng.github.io/MathJax/init.js"></script>
 ```
+
+## Status
+
+Working on it.
 
 ## Example
 
