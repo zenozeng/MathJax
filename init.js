@@ -31,7 +31,7 @@
                     ]
                 },
                 TeX: {
-                    extensions: ["AMSmath.js", "AMSsymbols.js", "http://zenozeng.github.io/MathJax/extra/xyjax.js", "color.js"]
+                    extensions: ["AMSmath.js", "AMSsymbols.js", "//zenozeng.github.io/MathJax/extra/xyjax.js", "color.js"]
                 }
             });
         };
