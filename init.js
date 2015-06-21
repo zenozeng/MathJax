@@ -25,6 +25,7 @@
                 TeX: {
                     extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js",
                                  "//zenozeng.github.io/MathJax/extra/xyjax.js",
+                                 "enclose.js",
                                  "color.js"]
                 },
                 "HTML-CSS": {
