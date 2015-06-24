@@ -9,7 +9,7 @@
         }
     }
 
-    var baseURL = "//zenozeng.github.io/MathJax/";
+    var baseURL = "https://zenozeng.github.io/MathJax/";
 
     ready(function() {
         var s;
@@ -24,7 +24,7 @@
                 extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
                 TeX: {
                     extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js",
-                                 "//zenozeng.github.io/MathJax/extra/xyjax.js",
+                                 "https://zenozeng.github.io/MathJax/extra/xyjax.js",
                                  "enclose.js",
                                  "color.js"]
                 },
