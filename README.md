@@ -8,13 +8,13 @@ This repo is a self hosted MathJax plus configuration for color and XyJax.
 Include this in your markdown:
 
 ```html
-<script src="//zenozeng.github.io/MathJax/init.js"></script>
+<script src="https://zenozeng.github.io/MathJax/init.js"></script>
 ```
 
 Or if you are using pandoc:
 
 ```bash
-pandoc index.md -s --mathjax='//zenozeng.github.io/MathJax/init.js' -o index.html
+pandoc index.md -s --mathjax='https://zenozeng.github.io/MathJax/init.js' -o index.html
 ```
 
 ## Example
